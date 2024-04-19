@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin:0;
+    padding:0;
+ } 
+
+ img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    height: auto;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px; /* Add some space between image and text */
+}
+
+body{
+    height: 100vh;
+}
+.parent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer{
+    width: 400px;
+    border-radius: 15px;
+    background-color: rgb(43, 39, 39);
+    border: 1px solid red;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.text{
+    background-color: rgb(43, 39, 39)
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(43, 39, 39);
+    
+}
+li{
+    height: 50px;
+    width: 90%;
+    background-color: rgb(81, 76, 76);
+    list-style-type: none;
+    border-radius: 5px;
+    margin: 10px;
+}
